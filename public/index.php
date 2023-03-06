@@ -80,7 +80,7 @@ $snapshot->load();
 
                 <div class="card text-bg-dark">
                     <div class="card-body">
-                        curl -L <?php echo $URI; ?>" | tar -Ilz4 -xf - -C $HOME/.nolus <br />
+                        curl -L "<?php echo $URI; ?>" | tar -Ilz4 -xf - -C $HOME/.nolus <br />
                         mv $HOME/.nolus/priv_validator_state.json.backup $HOME/.nolus/data/priv_validator_state.json
                     </div>
                 </div>
