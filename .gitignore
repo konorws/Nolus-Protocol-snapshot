@@ -1,0 +1,4 @@
+data.json
+vendor
+public/snapshot/*.lz4
+.idea
