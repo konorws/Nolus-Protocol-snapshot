@@ -8,7 +8,7 @@
 
 require_once __DIR__."/../vendor/autoload.php";
 
-$URI = 'http://65.109.3.21/snapshot/latest.tat.lz4';
+$URI = 'http://65.109.3.210/snapshot/latest.tar.lz4';
 
 $snapshot = new \App\Snapshot();
 $snapshot->load();
